@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="firstColor" format="color" />
+    <attr name="nextColor" format="color" />
+    <attr name="dotCount" format="integer" />
+    <attr name="circleWidth" format="dimension" />
+    <attr name="splitSize" format="integer" />
+    <attr name="background" format="reference" />
+
+    <declare-styleable name="CircleVolumnControlView">
+        <attr name="firstColor" />
+        <attr name="nextColor" />
+        <attr name="dotCount" />
+        <attr name="circleWidth" />
+        <attr name="splitSize" />
+        <attr name="background" />
+    </declare-styleable>
+
+</resources>

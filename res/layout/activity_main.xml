@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:beyole="http://schemas.android.com/apk/res/com.beyole.circlevolumncontrol"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.beyole.view.CircleVolumnControlView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        beyole:background="@drawable/ic_launcher"
+        beyole:circleWidth="10dp"
+        beyole:dotCount="20"
+        beyole:firstColor="#00ff00"
+        beyole:nextColor="#563586"
+        beyole:splitSize="10" />
+
+</RelativeLayout>
